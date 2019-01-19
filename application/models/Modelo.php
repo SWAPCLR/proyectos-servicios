@@ -12,6 +12,6 @@ class Modelo extends CI_Model {
             'tel_oficina'=>$this->input->post('tel_oficina'),
             'direccion'=>$this->input->post('direccion')
         );
-        $this->db->insert('tbl_name', $data);
+        $this->db->insert('prueba_servicios', $data);
     }
 }
